@@ -1,0 +1,152 @@
+:root {
+  background-color: #007b63;
+  background-image: url("https://www.textures4photoshop.com/tex/thumbs/green-chalkboard-texture-free-download-thumb38.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Verdana;
+  color: #191c2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  background-color: #fff;
+  background-image: url("https://images.pexels.com/photos/10526919/pexels-photo-10526919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  border-radius: 20px;
+  margin: 2vh auto 2vh;
+  padding: 1vh 1vw;
+  width: 90vw;
+  height: fit-content;
+  box-shadow: 1px 10px 12px rgba(25,28,45,0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Impact;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+  font-size: 4.6em;
+  margin: auto;
+}
+
+#description {
+  color: #0A3161;
+  font-style: italic;
+  font-size: 1.2em;
+  margin-bottom: 16px;
+  width: 96%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 98%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 14px 0px 14px;
+}
+
+#graphics-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: inset 1px 4px 10px rgba(25,28,45,0.5);
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 24px;
+}
+
+#legend {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: fit-content;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: inset 1px 2px 4px rgba(25,28,45,0.5);
+  border-color: #ccc;
+  padding: 4px 4px;
+  font-size: 0.6em;
+}
+
+img {
+  box-shadow: 1px 4px 10px rgba(25,28,45,0.8);
+  padding: 6px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #f2a533;
+  height: 120px;
+  margin: 16px 16px 2px;
+}
+
+iframe {
+  box-shadow: 1px 4px 10px rgba(25,28,45,0.8);
+  padding: 6px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #11464a;
+}
+
+#vid {
+  width: 512px;
+  height: 288px;
+}
+
+#wiki {
+  box-shadow: 1px 4px 10px rgba(25,28,45,0.8);
+  padding: 6px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #191c2d;
+  width: 80%;
+  height: 400px;
+}
+
+.dot {
+  fill: #000;
+}
+
+#tooltip {
+  visibility: hidden;
+  background-color: #fff;
+  height: fit-content;
+  width: 180px;
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  box-shadow: 1px 3px 5px rgba(80,80,110,0.7);
+}
+
+#wikilink {
+  visibility: visible;
+  background-color: #888;
+  height: 500px;
+  width: 500px;
+  padding: 4px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 5px rgba(25,28,45,0.7);
+}
+
+footer {
+  color: #4ca291;
+  font-size: 0.8em;
+  margin: 2px auto;
+}
